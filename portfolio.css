@@ -196,6 +196,8 @@ img.hero-art { height: auto; border-radius: 10px; background: #fff; box-shadow: 
 /* ---------- Tags ------------------------------------------------------- */
 .tag-row { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0; }
 .tag { font-size: .76rem; font-weight: 600; background: #edf2f7; color: #3a4a61; border: 1px solid var(--color-border); border-radius: 999px; padding: .2rem .7rem; }
+a.tag { text-decoration: none; }
+a.tag:hover { background: #fff; border-color: var(--color-secondary); color: var(--color-primary); }
 
 /* ---------- "Continue the case study" contextual links ----------------- */
 .reads { border-top: 2px solid var(--color-border); margin-top: 2.4rem; padding-top: 1.4rem; }
